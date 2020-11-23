@@ -18,8 +18,7 @@ public class ApiSGBD {
 	
 	public void setTypeBase(String TypeBase) {
 
-		switch(TypeBase)
-		{
+		switch (TypeBase) {
 		case "Sqlite":
 			this.iTypeBase = "Sqlite";
 			break;
